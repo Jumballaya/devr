@@ -20,6 +20,12 @@ const init = () => {
     )
     .option('-p, --port <number>', 'Port to run the server on', 8080)
     .option('-o, --open', 'Opens the browser up to the dev server', false);
+
+  // #TODO: devr new <name>
+  //        to generate new projects
+
+  // #TODO: devr build
+  //        to build the project into a folder or zip files
 };
 
 /**
