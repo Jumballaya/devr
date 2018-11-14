@@ -1,8 +1,14 @@
 {
-  "name": "ezdev",
-  "version": "1.0.0",
-  "description": "",
+  "name": "devr",
+  "version": "0.1.0",
+  "author": "Patrick Burris",
+  "github": "https://github.com/Jumballaya/PDF-puppet",
+  "description": "Development server for static web assets",
+  "license": "ISC",
   "main": "index.js",
+  "bin": {
+    "devr": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -10,7 +10,7 @@ const DevServer = require('./src');
  */
 const init = () => {
   program
-    .version('0.0.1', '-v, --version')
+    .version('0.1.0', '-v, --version')
     .description('Easy to add (and remove) development environment')
     .usage('<host> <port> <open>')
     .option(
